@@ -1,1 +1,15 @@
-<h1>Rolf Erik Lekang</h1>
+---
+layout: default
+background: https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced
+---
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>{{ site.data.me.name }}</h1>
+    <ul class="meta-list">
+      {% for media in site.data.me.contact_info %}
+      <li><a href="{{ media.url }}"><i class="fa fa-2x fa-fw fa-{{ media.icon }}"></i></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

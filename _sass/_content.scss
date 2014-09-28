@@ -1,0 +1,32 @@
+.jumbotron{
+  width: 100%;
+  padding: 4em 2em;
+  margin-top: 30%;
+  background: rgba(220, 200, 200, 0.4);
+  text-align: center;
+
+  .container {
+    width: 80%;
+    max-width: 800px;
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+.meta-list {
+  padding: 10px 0;
+  list-style-type: none;
+
+
+  li {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 700px) {
+.jumbotron{
+  .container {
+    width: 50%;
+  }
+ }
+}

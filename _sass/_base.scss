@@ -1,0 +1,41 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 300;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: $link-color;
+
+  &:visited {
+    color: $link-color-visited;
+  }
+  &:hover,
+  &:active {
+    color: $link-color-active;
+  }
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+%clearfix {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
