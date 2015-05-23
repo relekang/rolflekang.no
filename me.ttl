@@ -13,7 +13,7 @@
    ; foaf:weblog <http://rolflekang.com> 
    ; foaf:account <https://www.linkedin.com/in/rolflekang> 
    ; foaf:account <https://www.github.com/relekang> 
-   ; foaf:account <https://www.twitter.com/_rolf_> 
+   ; foaf:account <https://www.twitter.com/relekang> 
    ; foaf:account <https://www.goodreads.com/user/show/4629395-rolf-erik>
    ; foaf:age "24" 
    ; foaf:based_near "Trondheim, Norway" 
