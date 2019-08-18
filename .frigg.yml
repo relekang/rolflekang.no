@@ -1,5 +1,0 @@
-setup_tasks:
- - gem install rake html-proofer
-
-tasks:
- - rake test
